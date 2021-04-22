@@ -4,6 +4,7 @@ export default function Player() {
   return (
     <div className={styles.container}>
       <header>
+        <img src="/playing.svg"/>
         <strong>Tocando Agora</strong>
       </header>
       <div className={styles.empty}>
