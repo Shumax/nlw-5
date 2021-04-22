@@ -1,42 +1,28 @@
 //necessario para tipar a função
+import format from 'date-fns/format';
+import ptBR from 'date-fns/locale/pt-BR';
+import parseISO from 'date-fns/parseISO';
 import { GetStaticProps } from 'next';
-import {URL} from '../services';
+import { URL } from '../services';
+import { convertDuration } from '../utils/convertDuration';
 
-type Episode = {
-  id: string,
-  title: string,
-  members: string, 
-  published_at: Date,
-  thumbnail: string,
-  description: string,
-  file: {
-    url: string,
-    type: string,
-    duration: number,
-  }
-}
+import SliceTwoEpisodes from '../components/SliceTwoEpisodes';
+import AllEpisodes from '../components/AllEpisodes';
+import styles from './styles.module.scss';
+
+import { Episode } from '../types';
 
 type HomeProps = {
-  epsisodes: Episode[],
+  sliceTwoEpisodes: Episode[],
+  allEpisodes: Episode[],
 }
 
-export default function Home(props: HomeProps) {
-  console.log(props)
+export default function Home({ sliceTwoEpisodes, allEpisodes }: HomeProps) {
   return (
-    <>
-      <div>
-        <h2>Ultimos lançamentos</h2>
-        <div>
-          <div>
-            card
-          </div>
-          <div>
-            card
-          </div>
-        </div>
-        <p>{JSON.stringify(props.epsisodes)}</p>
-      </div>
-    </>
+    <main className={styles.main}>
+      <SliceTwoEpisodes episodes={sliceTwoEpisodes} />
+      <AllEpisodes episodes={allEpisodes}/>
+    </main>
   )
 }
 
@@ -53,13 +39,32 @@ export default function Home(props: HomeProps) {
 // } 
 
 //SSG
+
 export const getStaticProps: GetStaticProps = async () => {
   const res = await fetch(`${URL}/episodes?_limit=12&_sort=published_at&_order=desc`);
   const data = await res.json();
 
+  //formata os dados antes de retornar
+  const formatEpisodes = data.map(epi => {
+    return { 
+      id: epi.id,
+      title: epi.title,
+      thumbnail: epi.thumbnail,
+      members: epi.members,
+      published_at: format(parseISO(epi.published_at), 'd MMM yy', { locale: ptBR }),
+      durationAsString: convertDuration(epi.file.duration),
+      duration: Number(epi.file.duration),
+      url: epi.file.url,
+    }
+  });
+
+  const sliceTwoEpisodes = formatEpisodes.slice(0 , 2);
+  const allEpisodes = formatEpisodes.slice(2, formatEpisodes.length);
+
   return {
     props: {
-      episodes: data,
+      sliceTwoEpisodes,
+      allEpisodes,
     },
     revalidate: 60 * 60 * 8,
   }
