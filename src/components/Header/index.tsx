@@ -8,7 +8,7 @@ export default function Header() {
   const currentDate = format(new Date(), 'EEEEEE, d MMMM', { locale: ptBR });
   return (
     <header className={styles.container}>
-      <Link href={'/'}><img src="/logo.svg" alt="logo" /></Link>
+      <Link href='/'><img src="/logo.svg" alt="logo" /></Link>
       <p>O melhor para você ouvir sempre</p>
       <span>{currentDate}</span>
     </header>

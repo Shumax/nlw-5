@@ -15,13 +15,15 @@ import { Episode } from '../types';
 type HomeProps = {
   sliceTwoEpisodes: Episode[],
   allEpisodes: Episode[],
+  episodesToPlayer: Episode[],
 }
 
-export default function Home({ sliceTwoEpisodes, allEpisodes }: HomeProps) {
+export default function Home({ sliceTwoEpisodes, allEpisodes, episodesToPlayer }: HomeProps) {
+
   return (
     <main className={styles.main}>
-      <SliceTwoEpisodes episodes={sliceTwoEpisodes} />
-      <AllEpisodes episodes={allEpisodes}/>
+      <SliceTwoEpisodes episodes={sliceTwoEpisodes} toPlayer={episodesToPlayer} />
+      <AllEpisodes episodes={allEpisodes} toPlayer={episodesToPlayer}/>
     </main>
   )
 }
@@ -60,11 +62,13 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const sliceTwoEpisodes = formatEpisodes.slice(0 , 2);
   const allEpisodes = formatEpisodes.slice(2, formatEpisodes.length);
+  const episodesToPlayer = formatEpisodes;
 
   return {
     props: {
       sliceTwoEpisodes,
       allEpisodes,
+      episodesToPlayer,
     },
     revalidate: 60 * 60 * 8,
   }
