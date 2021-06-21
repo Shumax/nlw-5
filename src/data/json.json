@@ -1,0 +1,544 @@
+{
+  "portalId": 8573517,
+  "dealId": 5085600894,
+  "isDeleted": false,
+  "associations": {
+    "associatedVids": [
+      19054301
+    ],
+    "associatedCompanyIds": [],
+    "associatedDealIds": [],
+    "associatedTicketIds": []
+  },
+  "properties": {
+    "hs_closed_amount_in_home_currency": {
+      "value": "0",
+      "timestamp": 1619199413211,
+      "source": "CALCULATED",
+      "sourceId": "CalculatedPropertyComputer",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_closed_amount_in_home_currency",
+          "value": "0",
+          "timestamp": 1619199413211,
+          "sourceId": "CalculatedPropertyComputer",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "dealname": {
+      "value": "tmrbento@gmail.com",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "dealname",
+          "value": "tmrbento@gmail.com",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "birthdate": {
+      "value": "26/04/1973",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "birthdate",
+          "value": "26/04/1973",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "num_associated_contacts": {
+      "value": "1",
+      "timestamp": 1619199413762,
+      "source": "CALCULATED",
+      "sourceId": "RollupProperties",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "num_associated_contacts",
+          "value": "1",
+          "timestamp": 1619199413762,
+          "sourceId": "RollupProperties",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "proposta_seguro__saldo_devedor_": {
+      "value": "67.66",
+      "timestamp": 1619199538004,
+      "source": "API",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "proposta_seguro__saldo_devedor_",
+          "value": "67.66",
+          "timestamp": 1619199538004,
+          "source": "API",
+          "sourceVid": [],
+          "requestId": "011ca9e5-7418-4481-b606-6fe71514c92d"
+        }
+      ]
+    },
+    "saldo_devedor": {
+      "value": "180921.97",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "saldo_devedor",
+          "value": "180921.97",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "grupo": {
+      "value": "65",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "grupo",
+          "value": "65",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "createdate": {
+      "value": "1619199413211",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "createdate",
+          "value": "1619199413211",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_is_closed": {
+      "value": "false",
+      "timestamp": 1619199413211,
+      "source": "CALCULATED",
+      "sourceId": "CalculatedPropertyComputer",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_is_closed",
+          "value": "false",
+          "timestamp": 1619199413211,
+          "sourceId": "CalculatedPropertyComputer",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_deal_stage_probability": {
+      "value": "0.90000000000000002220446049250313080847263336181640625",
+      "timestamp": 1619438239441,
+      "source": "CALCULATED",
+      "sourceId": "CalculatedPropertyComputer",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_deal_stage_probability",
+          "value": "0.90000000000000002220446049250313080847263336181640625",
+          "timestamp": 1619438239441,
+          "sourceId": "CalculatedPropertyComputer",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "days_to_close": {
+      "value": "0",
+      "timestamp": 1619199413211,
+      "source": "CALCULATED",
+      "sourceId": "CalculatedPropertyComputer",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "days_to_close",
+          "value": "0",
+          "timestamp": 1619199413211,
+          "sourceId": "CalculatedPropertyComputer",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "validacao_seguro": {
+      "value": "qualificado",
+      "timestamp": 1619199434282,
+      "source": "API",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "validacao_seguro",
+          "value": "qualificado",
+          "timestamp": 1619199434282,
+          "source": "API",
+          "sourceVid": [],
+          "requestId": "55cc6cfc-f5ff-4793-8a3e-f8761352dfdf"
+        }
+      ]
+    },
+    "hs_closed_amount": {
+      "value": "0",
+      "timestamp": 1619199413211,
+      "source": "CALCULATED",
+      "sourceId": "CalculatedPropertyComputer",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_closed_amount",
+          "value": "0",
+          "timestamp": 1619199413211,
+          "sourceId": "CalculatedPropertyComputer",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_analytics_source": {
+      "value": "DIRECT_TRAFFIC",
+      "timestamp": 1619199413808,
+      "source": "DEALS",
+      "sourceId": "deal sync triggered by vid=19054301",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_analytics_source",
+          "value": "DIRECT_TRAFFIC",
+          "timestamp": 1619199413808,
+          "sourceId": "deal sync triggered by vid=19054301",
+          "source": "DEALS",
+          "sourceVid": []
+        }
+      ]
+    },
+    "seguro_saldo_limite_contratacao": {
+      "value": "1809219768,00",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "seguro_saldo_limite_contratacao",
+          "value": "1809219768,00",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_createdate": {
+      "value": "1619199413211",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_createdate",
+          "value": "1619199413211",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_num_target_accounts": {
+      "value": "0",
+      "timestamp": 1619199413754,
+      "source": "CALCULATED",
+      "sourceId": "RollupProperties",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_num_target_accounts",
+          "value": "0",
+          "timestamp": 1619199413754,
+          "sourceId": "RollupProperties",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "numero_do_contrato_seguro": {
+      "value": "3bdf9f65-6621-4f2c-8eb0-da6f19fe0067",
+      "timestamp": 1619438528778,
+      "source": "API",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "numero_do_contrato_seguro",
+          "value": "3bdf9f65-6621-4f2c-8eb0-da6f19fe0067",
+          "timestamp": 1619438528778,
+          "source": "API",
+          "sourceVid": [],
+          "requestId": "1fff8f85-c1bb-452c-a898-6f9ecf0518cf"
+        }
+      ]
+    },
+    "hs_is_closed_won": {
+      "value": "false",
+      "timestamp": 1619199413211,
+      "source": "CALCULATED",
+      "sourceId": "CalculatedPropertyComputer",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_is_closed_won",
+          "value": "false",
+          "timestamp": 1619199413211,
+          "sourceId": "CalculatedPropertyComputer",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "valorcategoria": {
+      "value": "145904.82",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "valorcategoria",
+          "value": "145904.82",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "proposta_seguro__categoria_": {
+      "value": "54.56",
+      "timestamp": 1619199538004,
+      "source": "API",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "proposta_seguro__categoria_",
+          "value": "54.56",
+          "timestamp": 1619199538004,
+          "source": "API",
+          "sourceVid": [],
+          "requestId": "011ca9e5-7418-4481-b606-6fe71514c92d"
+        }
+      ]
+    },
+    "pipeline": {
+      "value": "12380231",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "pipeline",
+          "value": "12380231",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "data_de_encerramento_do_grupo": {
+      "value": "14/04/2021",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "data_de_encerramento_do_grupo",
+          "value": "14/04/2021",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "proposta_seguro_url": {
+      "value": "https://mktademicon.com.br/docusign/?key=5085600894",
+      "timestamp": 1619199538004,
+      "source": "API",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "proposta_seguro_url",
+          "value": "https://mktademicon.com.br/docusign/?key=5085600894",
+          "timestamp": 1619199538004,
+          "source": "API",
+          "sourceVid": [],
+          "requestId": "011ca9e5-7418-4481-b606-6fe71514c92d"
+        }
+      ]
+    },
+    "hs_lastmodifieddate": {
+      "value": "1619438528778",
+      "timestamp": 1619438528778,
+      "source": "CALCULATED",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_lastmodifieddate",
+          "value": "1619438528778",
+          "timestamp": 1619438528778,
+          "source": "CALCULATED",
+          "sourceVid": [],
+          "requestId": "1fff8f85-c1bb-452c-a898-6f9ecf0518cf"
+        }
+      ]
+    },
+    "dupla_titularidade": {
+      "value": "false",
+      "timestamp": 1619438217727,
+      "source": "API",
+      "sourceId": null,
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "dupla_titularidade",
+          "value": "false",
+          "timestamp": 1619438217727,
+          "source": "API",
+          "sourceVid": [],
+          "requestId": "f7081d7a-1eaa-45f8-906d-6fe2e6ef65b8"
+        }
+      ]
+    },
+    "hs_num_associated_deal_splits": {
+      "value": "0",
+      "timestamp": 1619199413754,
+      "source": "CALCULATED",
+      "sourceId": "RollupProperties",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_num_associated_deal_splits",
+          "value": "0",
+          "timestamp": 1619199413754,
+          "sourceId": "RollupProperties",
+          "source": "CALCULATED",
+          "sourceVid": []
+        }
+      ]
+    },
+    "dealstage": {
+      "value": "12380238",
+      "timestamp": 1619438239441,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:100035202110;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "dealstage",
+          "value": "12380238",
+          "timestamp": 1619438239441,
+          "sourceId": "enrollmentId:100035202110;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "cota": {
+      "value": "560",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "cota",
+          "value": "560",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_object_id": {
+      "value": "5085600894",
+      "timestamp": 1619199413211,
+      "source": "AUTOMATION_PLATFORM",
+      "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_object_id",
+          "value": "5085600894",
+          "timestamp": 1619199413211,
+          "sourceId": "enrollmentId:99440592816;actionExecutionIndex:0",
+          "source": "AUTOMATION_PLATFORM",
+          "sourceVid": []
+        }
+      ]
+    },
+    "hs_analytics_source_data_1": {
+      "value": "e3875d32-ab81-48f1-9e78-493eae864f12",
+      "timestamp": 1619199413808,
+      "source": "DEALS",
+      "sourceId": "deal sync triggered by vid=19054301",
+      "updatedByUserId": null,
+      "versions": [
+        {
+          "name": "hs_analytics_source_data_1",
+          "value": "e3875d32-ab81-48f1-9e78-493eae864f12",
+          "timestamp": 1619199413808,
+          "sourceId": "deal sync triggered by vid=19054301",
+          "source": "DEALS",
+          "sourceVid": []
+        }
+      ]
+    }
+  },
+  "imports": [],
+  "stateChanges": []
+}
